@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>another one</title>
+	<link rel="stylesheet" type="text/css" href="stye.css">
+</head>
+<body class="background">
+<div class="back">
+	<div class="tasks">
+		<h1>Найди:</h1>
+		<h2 class="prop1-1">1. Проп1</h2>
+		<h2 class="prop2-1">2. Проп2</h2>
+		<h2 class="prop3-1">3. Проп3</h2>
+		<h2 class="prop4-1">4. Проп4</h2>
+		<h2 class="prop5-1">5. Проп5</h2>
+		<h1>Очки:</h1>
+		<h1 class="points"></h1>
+	</div>
+	<div class="prop1"></div>
+	<div class="prop2"></div>
+	<div class="prop3"></div>
+	<div class="prop4"></div>
+	<div class="prop5"></div>
+</div>
+
+<script type="text/javascript">
+	let score = 0
+	document.querySelector(".points").innerHTML = score;
+	document.querySelector(".prop1").onclick = function() {
+		score = score + 1;
+		document.querySelector(".points").innerHTML = score;
+		alert("харош, ты нашёл проп1");
+		document.querySelector(".prop1").style.display = "none";
+		document.querySelector(".prop1-1").style.textDecoration = "line-through";
+
+		document.querySelector(".background").style.background = "red";
+		document.querySelector(".back").style.background = "red";
+
+        document.querySelector(".prop3").style.left = "425px";
+        document.querySelector(".prop3").style.top = "743px";
+
+        document.querySelector(".prop4").style.left = "101px";
+        document.querySelector(".prop4").style.top = "309px";
+
+        document.querySelector(".prop2").style.left = "256px";
+        document.querySelector(".prop2").style.top = "173px";
+
+        document.querySelector(".prop5").style.left = "424px";
+        document.querySelector(".prop5").style.top = "579px";
+	}
+	document.querySelector(".prop2").onclick = function() {
+		score = score + 1;
+		document.querySelector(".points").innerHTML = score;
+		alert("харош, ты нашёл проп2");
+		document.querySelector(".prop2").style.display = "none";
+		document.querySelector(".prop2-1").style.textDecoration = "line-through";
+
+		document.querySelector(".background").style.background = "red";
+		document.querySelector(".back").style.background = "red";
+
+        document.querySelector(".prop3").style.left = "901px";
+        document.querySelector(".prop3").style.top = "782px";
+
+        document.querySelector(".prop4").style.left = "558px";
+        document.querySelector(".prop4").style.top = "782px";
+
+        document.querySelector(".prop5").style.left = "398px";
+        document.querySelector(".prop5").style.top = "430px";
+
+        document.querySelector(".prop1").style.left = "651px";
+        document.querySelector(".prop1").style.top = "749px";
+	}
+	document.querySelector(".prop3").onclick = function() {
+		score = score + 1;
+		document.querySelector(".points").innerHTML = score;
+		alert("харош, ты нашёл проп3");
+		document.querySelector(".prop3").style.display = "none";
+		document.querySelector(".prop3-1").style.textDecoration = "line-through";
+
+		document.querySelector(".background").style.background = "red";
+		document.querySelector(".back").style.background = "red";
+
+        document.querySelector(".prop5").style.left = "700px";
+        document.querySelector(".prop5").style.top = "400px";
+
+        document.querySelector(".prop4").style.left = "500px";
+        document.querySelector(".prop4").style.top = "841px";
+
+        document.querySelector(".prop2").style.left = "474px";
+        document.querySelector(".prop2").style.top = "358px";
+
+        document.querySelector(".prop1").style.left = "783px";
+        document.querySelector(".prop1").style.top = "688px";
+	}
+	document.querySelector(".prop4").onclick = function() {
+		score = score + 1;
+		document.querySelector(".points").innerHTML = score;
+		alert("харош, ты нашёл проп4");
+		document.querySelector(".prop4").style.display = "none";
+		document.querySelector(".prop4-1").style.textDecoration = "line-through";
+
+		document.querySelector(".background").style.background = "red";
+		document.querySelector(".back").style.background = "red";
+
+        document.querySelector(".prop3").style.left = "753px";
+        document.querySelector(".prop3").style.top = "653px";
+
+        document.querySelector(".prop5").style.left = "309px";
+        document.querySelector(".prop5").style.top = "795px";
+
+        document.querySelector(".prop2").style.left = "631px";
+        document.querySelector(".prop2").style.top = "444px";
+
+        document.querySelector(".prop1").style.left = "454px";
+        document.querySelector(".prop1").style.top = "547px";
+	}
+	document.querySelector(".prop5").onclick = function() {
+		score = score + 1;
+		document.querySelector(".points").innerHTML = score;
+		alert("харош, ты нашёл проп4");
+		document.querySelector(".prop5").style.display = "none";
+		document.querySelector(".prop5-1").style.textDecoration = "line-through";
+
+		document.querySelector(".background").style.background = "red";
+		document.querySelector(".back").style.background = "red";
+
+        document.querySelector(".prop3").style.left = "654px";
+        document.querySelector(".prop3").style.top = "544px";
+
+        document.querySelector(".prop4").style.left = "964px";
+        document.querySelector(".prop4").style.top = "587px";
+
+        document.querySelector(".prop2").style.left = "637px";
+        document.querySelector(".prop2").style.top = "784px";
+
+        document.querySelector(".prop1").style.left = "93px";
+        document.querySelector(".prop1").style.top = "760px";
+	}
+</script>
+</body>
+</html>

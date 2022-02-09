@@ -1,0 +1,70 @@
+.background {
+	background: gray;
+}
+.back {
+	height: 900px;
+	background: gray;
+}
+.tasks {
+	width: 200px;
+	height: 400px;
+	background: orange;
+	font-weight: bold;
+	text-align: center;
+}
+.prop1 {
+	width: 25px;
+	height: 25px;
+	background: #ff1a1a;
+	position: absolute;
+	top: 400px;
+	left: 1000px;
+}
+.prop2 {
+	width: 25px;
+	height: 25px;
+	background: #e60606;
+	position: absolute;
+	top: 400px;
+	left: 900px;
+}
+.prop3 {
+	width: 25px;
+	height: 25px;
+	background: #f9250e;
+	position: absolute;
+	top: 300px;
+	left: 900px;
+}
+.prop4 {
+	width: 25px;
+	height: 25px;
+	background: #ff2020;
+	position: absolute;
+	top: 300px;
+	left: 1000px;
+}
+.prop5 {
+	width: 25px;
+	height: 25px;
+	background: orange;
+	position: absolute;
+	top: 350px;
+	left: 950px;
+}
+}
+.prop1-1 {
+
+}
+.prop2-1 {
+	
+}
+.prop3-1 {
+	
+}
+.prop4-1 {
+	
+}
+.prop5-1 {
+	
+}
